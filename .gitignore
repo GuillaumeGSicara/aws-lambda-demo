@@ -1,0 +1,17 @@
+*.lock.hcl
+lambda.zip
+set-env.sh
+.DS_Store
+
+/tf/.terraform/
+/.terraform
+terraform.tfstate
+terraform.tfstate.backup
+
+# 
+
+/package/**/*/
+/package/*
+!/package/.gitkeep
+!/package/README.md
+
