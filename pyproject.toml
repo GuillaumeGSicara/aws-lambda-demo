@@ -13,10 +13,10 @@ cryptography = "42.0.7"
 pycparser = "2.22"
 
 [tool.commitizen]
-version = "1.0.0"
+version = "1.1.0"
 tag_format = "v$version"
 version_files = [
-  "pyproject.toml:tool.poetry.version",
+  "pyproject.toml:version",
 ]
 
 [build-system]
