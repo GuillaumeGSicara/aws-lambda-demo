@@ -12,6 +12,12 @@ cffi = "1.16.0"
 cryptography = "42.0.7"
 pycparser = "2.22"
 
+[tool.commitizen]
+version = "1.0.0"
+tag_format = "v$version"
+version_files = [
+  "pyproject.toml:tool.poetry.version",
+]
 
 [build-system]
 requires = ["poetry-core"]
